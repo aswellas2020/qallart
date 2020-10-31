@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Товары</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="nabory-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script|Merienda|Parisienne|Yellowtail|Poiret+One" rel="stylesheet">
+
+    <style type="text/css">
+    	.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+    </style>
+</head>
+<body>
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+     <div class="container-fluid">
+      <a class="navbar-brand" href="main-index.html">
+         <p style="font-family: 'Parisienne', cursive; position: relative;top: 10px; font-size: 25px;">Qallart</p>
+
+      </a>
+      <h4 class="text-right" style="font-family: 'Poiret One', cursive;">Наши товары</h4>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+      <span class="navbar-toggler-icon"></span></button>
+       <div class="collapse navbar-collapse" id="mynav">
+        <ul class="navbar-nav ml-auto">
+           <li class="nav-item active" >
+               <a  class="nav-link" href="#sles">Шопперы</a>
+           </li>
+           <li class="nav-item" >
+              <a  class="nav-link" href="#lest">Логотипы</a>
+            </li>
+            <li class="nav-item" >
+             <a  class="nav-link" href="#shkaf">Анимации</a>
+            </li>
+            <li class="nav-item">
+            	<a class="nav-link" href="#telezhki">Графические рисунки</a>
+            </li>
+            </ul>
+         </div>
+     </div>
+ </nav>
+  <div class="container">
+   <script type="text/javascript">
+ 	var i = 0,text;
+ 	text = ""
+ 	function typing() {
+ 		if (i<text-right.length) {
+ 			document.getElementsByClassName("text-right").innerHTML += text.charAt(i);
+ 			i++;
+ 			setTimeOut(typing,50);
+ 		}
+ 	}
+ 	typing();
+ </script>
+
+ <script type="text/javascript">
+     var i = 0;
+     var image = new Array();
+
+
+  image[0] = "http://www.pngmart.com/files/4/Design-PNG-HD.png";
+  image[1] = "https://www.freepngimg.com/thumb/design/31139-7-design-transparent.png";
+  image[2] = "https://www.pngkit.com/png/full/4-43961_energy-wave-png-transparent-download-wave-design-vector.png";
+  image[3] = "https://www.pinclipart.com/picdir/big/50-505580_vector-design-png-black-and-white-clipart.png";
+
+
+
+   function showImage(){
+    document.slide.src = image[i];
+    if(i < image.length - 1) i++;
+    else i = 0;
+     setTimeout("showImage()",2000);
+   }
+
+   window.onload=showImage;
+</script>
+<img height="550" name="slide" src="" width="1000"/>
+
+  	 <h2 class="display-4" style="font-family: 'Poiret One', cursive;"><a name="sles">Шопперы</a></h2>
+  	 <div class="row">
+  	 	<div class="col-sm-4">
+  	 		<img src="images\sh1.jpg" width="200" height="auto" class="responsive">
+  	 		<p>Цена: <strong style="color: red;font-size: 25px"> 2000 &#8376;</strong><del style="color: gray"> 4000 &#8376;</del></p>
+  	 		<a href="purchase.html" target="_blank"><button type="button" class="btn btn-outline-secondary col-sm-7">Купить</button></a>
+  	 	</div>
+  	 	<div class="col-sm-4">
+  	 		<img src="images\sh2.jpg" width="200" height="auto" class="responsive">
+  	 		<p>Цена: <strong style="color: red;font-size: 25px"> 2000 &#8376;</strong><del style="color: gray"> 4000 &#8376;</del></p>
+  	 		<a href="purchase.html" target="_blank"><button type="button" class="btn btn-outline-secondary col-sm-7">Купить</button></a>
+  	 	</div>
+  	 	<div class="col-sm-4">
+  	 		<img src="images\sh3.jpg" width="200" height="auto" class="responsive">
+  	 		<p>Цена: <strong style="color: red;font-size: 25px"> 2000 &#8376;</strong><del style="color: gray"> 4000 &#8376;</del></p>
+  	 		<a href="purchase.html" target="_blank"><button type="button" class="btn btn-outline-secondary col-sm-7">Купить</button></a>
+  	 	</div>
+  	 </div>
+  </div>
+  <div class="container">
+  	<h2 class="display-4" style="font-family: 'Poiret One', cursive;"><a name="lest">Логотипы</a></h2>
+  	<div class="row">
+  		<div class="col-sm-4">
+  		<img src="images\log1.png" width="200" height="auto" class="responsive">
+  			<p>Цена: <strong style="color: red;font-size: 25px"> 3000 &#8376;</strong></p>
+
+  		</div>
+  		<div class="col-sm-4">
+  			<img src="images\log2.png" width="200" height="auto" class="responsive"></abbr>
+  			<p>Цена: <strong style="color: red;font-size: 25px"> 3000 &#8376;</strong></p>
+
+  		</div>
+  		<div class="col-sm-4">
+  			<img src="images\log4.png" width="200" height="auto" class="responsive"></abbr>
+  			<p>Цена: <strong style="color: red;font-size: 25px"> 3000 &#8376;</strong></p>
+
+  		</div>
+  	</div>
+  </div>
+  <div class="container">
+  	<h2 class="display-4" style="font-family: 'Poiret One', cursive;"><a name="shkaf"> Анимации </a></h2>
+  	<div class="row">
+  		<div class="col-sm-4">
+  			  <iframe width="200" height="200" src="https://www.youtube.com/embed/GvlSmhA-V2M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  			  <p>Цена: <strong style="color: red;font-size: 25px"> 5000 &#8376;</strong></p>
+
+  		</div>
+  		<div class="col-sm-4">
+  			 <iframe width="200" height="200" src="https://www.youtube.com/embed/9rR3KoeiI4g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  			<p>Цена: <strong style="color: red;font-size: 25px"> 5000 &#8376;</strong></p>
+
+  		</div>
+  		<div class="col-sm-4">
+				<iframe width="200" height="200" src="https://www.youtube.com/embed/udzjGD8jTXg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  				<p>Цена: <strong style="color: red;font-size: 25px"> 5000 &#8376;</strong></p>
+
+  		</div>
+  	</div>
+  </div>
+  <div class="container">
+  	<h2 class="display-4" style="font-family: 'Poiret One', cursive;"><a name="telezhki">Графические рисунки</a></h2>
+  	<div class="row">
+  		<div class="col-sm-4">
+  		<img src="images\t1.jpg" width="200" height="auto" class="responsive">
+  			<p>Цена: <strong style="color: red;font-size: 25px"> 2000 &#8376;</strong></p>
+  			<a href="purchase.html" target="_blank"><button type="button" class="btn btn-outline-secondary col-sm-7">Купить</button></a>
+  		</div>
+        <div class="col-sm-4">
+        <img src="images\t2.png" width="200" height="auto" class="responsive">
+        	<p>Цена: <strong style="color: red;font-size: 25px"> 2000 &#8376;</strong></p>
+        	<a href="purchase.html" target="_blank"><button type="button" class="btn btn-outline-secondary col-sm-7">Купить</button></a>
+        </div>
+        <div class="col-sm-4">
+        <img src="images\t3.png" width="200" height="auto" class="responsive">
+        	<p>Цена: <strong style="color: red;font-size: 25px"> 2000 &#8376;</strong></p>
+        	<a href="purchase.html" target="_blank"><button type="button" class="btn btn-outline-secondary col-sm-7">Купить</button></a>
+        </div>
+  	</div>
+  </div><br>
+
+
+
+<div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+									<div class="col-sm-6 col-md-3 item">
+										<a name ="contacts"><h3>Контакты</h3></a>
+										 <p>
+											 Тел: <a href="#"> + 7(778) 910 17 99 </a><br>
+											 Email: <a href="#"> qallart@gmail.com</a><br>
+											 Адрес: г.Алматы,  Ауэзовский район, Иргели<br>
+										 </p>
+									</div>
+										<div class="col-md-6 item text">
+                       <a name ="contacts"><h3>Социальные сети</h3></a>
+                        <p>
+                          Инстаграм: <a href="https://www.instagram.com/qallart/"> Qallart </a><br>
+
+
+                        </p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Qallart</p>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
